@@ -26,12 +26,12 @@ a {
 
 .info {
 	background-color: rgb(38, 46, 54);
-	outline: 5px rgb(38, 46, 54) solid;
+	outline: 2px rgb(38, 46, 54) solid;
 	outline-offset: -1px;
 	margin: 0;
-	height: 97px;
+	height: 100px;
 	color: white;
-	padding: 8px;
+	padding: 10px;
 	z-index: 1000;
 	position: relative;
 	top: 0;
@@ -41,7 +41,10 @@ a {
 
 @media only screen and (max-device-width: 1050px) {
 	.info {
-		transform: translateY(-100px);
+		transform: translateY(-97px);
+	}
+	.project:hover {
+		transform: scale(0.95);
 	}
 }
 
@@ -52,7 +55,7 @@ a {
 	transition: 0.5s;
 }
 .project:hover .info {
-	transform: translateY(-100px);
+	transform: translateY(-97px);
 }
 
 .project:hover {
