@@ -4,12 +4,17 @@
 	height: 280px;
 }
 
+a {
+	text-decoration: none;
+}
+
 .project {
 	border: 3px solid rgb(38, 46, 54);
-	margin: 10px;
 	overflow: hidden;
 	background-color: rgb(38, 46, 54);
 	transform: scale(0.95);
+	box-sizing: border-box;
+	margin: 10px;
 }
 
 .project-background {

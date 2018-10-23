@@ -2,13 +2,13 @@ import React from "react";
 import "./Project.css";
 
 const Project = props => (
-	<a
-		target="_blank"
-		rel="noopener noreferrer"
-		href={props.link}
-		class="button"
-	>
-		<div className="project">
+	<div className="project">
+		<a
+			target="_blank"
+			rel="noopener noreferrer"
+			href={props.link}
+			class="button"
+		>
 			<div
 				className="project-background"
 				style={{
@@ -16,8 +16,8 @@ const Project = props => (
 				}}
 			/>
 			<div className="info">{props.children}</div>
-		</div>
-	</a>
+		</a>
+	</div>
 );
 
 export default Project;
