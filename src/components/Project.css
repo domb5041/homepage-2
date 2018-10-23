@@ -26,12 +26,12 @@ a {
 
 .info {
 	background-color: rgb(38, 46, 54);
-	outline: 2px rgb(38, 46, 54) solid;
+	outline: 5px rgb(38, 46, 54) solid;
 	outline-offset: -1px;
 	margin: 0;
-	height: 100px;
+	height: 97px;
 	color: white;
-	padding: 10px;
+	padding: 8px;
 	z-index: 1000;
 	position: relative;
 	top: 0;
