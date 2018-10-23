@@ -44,7 +44,7 @@ a {
 		transform: translateY(-97px);
 	}
 	.project-background {
-		transform: translateY(-5px);
+		transform: translateY(-10px);
 	}
 	.project:hover {
 		transform: scale(0.95);
