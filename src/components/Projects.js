@@ -59,7 +59,7 @@ const Projects = props => {
 			</Project>
 
 			<Project
-				link="https://scaleplanets-2.herokuapp.com"
+				link="https://planet-scale.herokuapp.com"
 				background={planets}
 			>
 				An interactive visualisation showing the scale of planets in our
