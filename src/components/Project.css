@@ -26,6 +26,8 @@ a {
 
 .info {
 	background-color: rgb(38, 46, 54);
+	outline: 2px rgb(38, 46, 54) solid;
+	outline-offset: -1px;
 	margin: 0;
 	height: 100px;
 	color: white;
