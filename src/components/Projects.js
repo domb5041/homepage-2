@@ -1,5 +1,9 @@
 import React from "react";
 import Project from "./Project";
+import Title from "./Title";
+import "./Projects.css";
+
+//images
 import mononote from "./images/mononote.png";
 import planets from "./images/planets.png";
 import colourclock from "./images/colourclock.png";
@@ -38,9 +42,7 @@ const Projects = props => {
 
 	return (
 		<div className="projects">
-			<div className="section-title">
-				<h1>About Me</h1>
-			</div>
+			<Title title="About Me" />
 
 			<Project link="/" background={avatar} color="rgb(191, 191, 191)">
 				I'm a frontend web-developer focused on user interface. Find my
@@ -49,9 +51,7 @@ const Projects = props => {
 
 			<div className="spacer" />
 
-			<div className="section-title">
-				<h1>My Best Work</h1>
-			</div>
+			<Title title="My Best work" />
 
 			<Project link="https://mononote.herokuapp.com/" background={mononote}>
 				MonoNote is minimalist note-pad app built with {reactTag} and{" "}
@@ -68,9 +68,7 @@ const Projects = props => {
 
 			<div className="spacer" />
 
-			<div className="section-title">
-				<h1>Everything Else</h1>
-			</div>
+			<Title title="Everything Else" />
 
 			<Project link="https://bar-clock.herokuapp.com" background={barclock}>
 				Visualising progress through the year down to the second. Built with{" "}

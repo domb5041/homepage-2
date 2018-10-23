@@ -1,0 +1,16 @@
+.section-title {
+	width: 100%;
+}
+
+.section-title h1 {
+	margin: 30px 0 30px 0;
+	font-size: 40px;
+	pointer-events: none;
+	text-align: center;
+}
+
+@media (max-width: 500px) {
+	.section-title h1 {
+		font-size: 30px;
+	}
+}

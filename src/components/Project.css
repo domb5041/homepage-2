@@ -1,0 +1,53 @@
+.project,
+.project-background {
+	width: 280px;
+	height: 280px;
+}
+
+.project {
+	border: 3px solid rgb(38, 46, 54);
+	margin: 10px;
+	overflow: hidden;
+	background-color: rgb(38, 46, 54);
+	transform: scale(0.95);
+}
+
+.project-background {
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+}
+
+.info {
+	background-color: rgb(38, 46, 54);
+	margin: 0;
+	height: 100px;
+	color: white;
+	padding: 10px;
+	z-index: 1000;
+	position: relative;
+	top: 0;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+@media only screen and (max-device-width: 1050px) {
+	.info {
+		transform: translateY(-100px);
+	}
+}
+
+.project,
+.project-background,
+.info {
+	transition-timing-function: ease-in;
+	transition: 0.5s;
+}
+.project:hover .info {
+	transform: translateY(-100px);
+}
+
+.project:hover {
+	transform: scale(1);
+}
