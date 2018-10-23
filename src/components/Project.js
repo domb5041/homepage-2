@@ -1,7 +1,12 @@
 import React from "react";
 
 const Project = props => (
-	<a href={props.link} class="button">
+	<a
+		target="_blank"
+		rel="noopener noreferrer"
+		href={props.link}
+		class="button"
+	>
 		<div className="project">
 			<div
 				className="project-background"

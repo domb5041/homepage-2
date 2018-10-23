@@ -59,7 +59,7 @@ const Projects = props => {
 			</Project>
 
 			<Project
-				link="http://dominicbutler.uk/planetscale/"
+				link="https://scaleplanets-2.herokuapp.com"
 				background={planets}
 			>
 				An interactive visualisation showing the scale of planets in our
@@ -72,37 +72,34 @@ const Projects = props => {
 				<h1>Everything Else</h1>
 			</div>
 
-			<Project
-				link="http://dominicbutler.uk/barclock/"
-				background={barclock}
-			>
+			<Project link="https://bar-clock.herokuapp.com" background={barclock}>
 				Visualising progress through the year down to the second. Built with{" "}
 				{d3Tag}.
 			</Project>
 
 			<Project
-				link="http://dominicbutler.uk/helloworld/"
+				link="https://hello-world-animation.herokuapp.com"
 				background={helloworld}
 			>
 				Experimenting with animation in {javascriptTag}.
 			</Project>
 
 			<Project
-				link="http://dominicbutler.uk/colourclock/"
+				link="https://colour-clock.herokuapp.com"
 				background={colourclock}
 			>
 				A {javascriptTag} clock that changes colour.
 			</Project>
 
 			<Project
-				link="http://dominicbutler.uk/albumtable/"
+				link="https://album-wall.herokuapp.com"
 				background={albumtable}
 			>
 				An album cover layout. Experimenting with {cssTag} styles.
 			</Project>
 
 			<Project
-				link="http://dominicbutler.uk/checkboxchallenge/"
+				link="https://checkbox-challenge.herokuapp.com"
 				background={checkboxchallenge}
 			>
 				A simple {javascriptTag} memory game using the checkbox element.
