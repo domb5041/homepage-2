@@ -13,6 +13,8 @@ import checkboxchallenge from "./images/checkboxchallenge.png";
 import albumtable from "./images/albumtable.png";
 import avatar from "./images/avatar.png";
 
+import CV from "./Dominic Butler CV.pdf";
+
 const Projects = props => {
 	const reactTag = (
 		<span style={{ color: "rgb(251, 201, 92)" }}>
@@ -44,11 +46,7 @@ const Projects = props => {
 		<div className="projects">
 			<Title title="About Me" />
 
-			<Project
-				link="https://dominicbutler-cv.herokuapp.com"
-				background={avatar}
-				color="rgb(191, 191, 191)"
-			>
+			<Project link={CV} background={avatar} color="rgb(191, 191, 191)">
 				I'm a frontend web-developer focused on user interface. Find my
 				current CV here.
 			</Project>
