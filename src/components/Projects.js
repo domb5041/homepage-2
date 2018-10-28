@@ -44,7 +44,7 @@ const Projects = props => {
 
 	return (
 		<div className="projects">
-			<Title title="About Me" />
+			<Title title="Dominic Butler" />
 
 			<Project link={CV} background={avatar} color="rgb(191, 191, 191)">
 				I'm a frontend web-developer focused on user interface. Find my
@@ -53,7 +53,7 @@ const Projects = props => {
 
 			<div className="spacer" />
 
-			<Title title="My Best work" />
+			<Title title="Current Portfolio" />
 
 			<Project link="https://mononote.herokuapp.com/" background={mononote}>
 				MonoNote is minimalist note-pad app built with {reactTag} and{" "}
@@ -70,7 +70,7 @@ const Projects = props => {
 
 			<div className="spacer" />
 
-			<Title title="Everything Else" />
+			<Title title="Archive" />
 
 			<Project link="https://bar-clock.herokuapp.com" background={barclock}>
 				Visualising progress through the year down to the second. Built with{" "}
