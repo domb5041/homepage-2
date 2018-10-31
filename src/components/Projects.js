@@ -71,10 +71,10 @@ const Projects = props => {
 			</Project>
 
 			<Project
-				link="https://www.youtube.com/watch?v=JChDbIOkE58&frags=pl%2Cwn"
+				link="https://www.youtube.com/watch?v=JChDbIOkE58&list=PLrRbyFPS5q6w8wLmKAudLnPg1L7CMv1Lw"
 				background={notecircle}
 			>
-				Basic music theory explained with Illustrator and After Effects.
+				Guitar theory made bright lively with Illustrator, After Effects.
 			</Project>
 
 			<div className="spacer" />
