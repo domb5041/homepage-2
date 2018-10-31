@@ -12,6 +12,7 @@ import helloworld from "./images/helloworld.png";
 import checkboxchallenge from "./images/checkboxchallenge.png";
 import albumtable from "./images/albumtable.png";
 import avatar from "./images/avatar.png";
+import notecircle from "./images/notecircle.png";
 
 import CV from "./Dominic Butler CV.pdf";
 
@@ -53,7 +54,7 @@ const Projects = props => {
 
 			<div className="spacer" />
 
-			<Title title="Current Portfolio" />
+			<Title title="Top Projects" />
 
 			<Project link="https://mononote.herokuapp.com/" background={mononote}>
 				MonoNote is minimalist note-pad app built with {reactTag} and{" "}
@@ -68,9 +69,16 @@ const Projects = props => {
 				solarsystem. Built with {d3Tag}.
 			</Project>
 
+			<Project
+				link="https://www.youtube.com/watch?v=JChDbIOkE58&frags=pl%2Cwn"
+				background={notecircle}
+			>
+				Basic music theory explained with Illustrator and After Effects.
+			</Project>
+
 			<div className="spacer" />
 
-			<Title title="Archive" />
+			<Title title="The rest" />
 
 			<Project link="https://bar-clock.herokuapp.com" background={barclock}>
 				Visualising progress through the year down to the second. Built with{" "}
