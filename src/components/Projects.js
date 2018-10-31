@@ -74,7 +74,8 @@ const Projects = props => {
 				link="https://www.youtube.com/watch?v=JChDbIOkE58&list=PLrRbyFPS5q6w8wLmKAudLnPg1L7CMv1Lw"
 				background={notecircle}
 			>
-				Guitar theory made bright lively with Illustrator and After Effects.
+				Guitar theory made bright and lively with Illustrator and After
+				Effects.
 			</Project>
 
 			<div className="spacer" />
