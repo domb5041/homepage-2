@@ -79,7 +79,7 @@ const Projects = props => {
 
 			<div className="spacer" />
 
-			<Title title="The rest" />
+			<Title title="Other Projects" />
 
 			<Project link="https://bar-clock.herokuapp.com" background={barclock}>
 				Visualising progress through the year down to the second. Built with{" "}
