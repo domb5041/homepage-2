@@ -13,6 +13,7 @@ import checkboxchallenge from "./images/checkboxchallenge.png";
 import albumtable from "./images/albumtable.png";
 import avatar from "./images/avatar.png";
 import notecircle from "./images/notecircle.png";
+import teddy from "./images/teddy.png";
 
 import CV from "./Dominic Butler CV.pdf";
 
@@ -111,6 +112,13 @@ const Projects = props => {
 				background={checkboxchallenge}
 			>
 				A simple {javascriptTag} memory game using the checkbox element.
+			</Project>
+
+			<Project
+				link="https://www.instagram.com/dombutlerpad/"
+				background={teddy}
+			>
+				A collection of my graphic design and illustration work.
 			</Project>
 
 			<div className="spacer" />
