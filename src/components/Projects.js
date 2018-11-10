@@ -62,7 +62,11 @@ const Projects = props => {
 
 			<Title title="More Projects" />
 
-			<Project link="https://mononote.herokuapp.com/" background={mononote}>
+			<Project
+				link="https://mononote.herokuapp.com/"
+				background={mononote}
+				repo="https://github.com/domb5041/mononote.git"
+			>
 				MonoNote is minimalist note-pad app built with <Tag>React</Tag> and{" "}
 				<Tag>Bootstrap</Tag>.
 			</Project>
