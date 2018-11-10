@@ -14,6 +14,7 @@ import albumtable from "./images/albumtable.png";
 import avatar from "./images/avatar.png";
 import notecircle from "./images/notecircle.png";
 import teddy from "./images/teddy.png";
+import cafes from "./images/cafes.png";
 
 import CV from "./Dominic Butler CV.pdf";
 
@@ -57,9 +58,11 @@ const Projects = props => {
 
 			<Title title="Top Projects" />
 
-			<Project link="https://mononote.herokuapp.com/" background={mononote}>
-				MonoNote is minimalist note-pad app built with {reactTag} and{" "}
-				{bootstrapTag}.
+			<Project
+				link="https://kentico-cafes.herokuapp.com/"
+				background={cafes}
+			>
+				Connecting to Kentico Cloud API. built with {reactTag} and flexbox.
 			</Project>
 
 			<Project
@@ -80,7 +83,19 @@ const Projects = props => {
 
 			<div className="spacer" />
 
-			<Title title="Other Projects" />
+			<Title title="More Projects" />
+
+			<Project link="https://mononote.herokuapp.com/" background={mononote}>
+				MonoNote is minimalist note-pad app built with {reactTag} and{" "}
+				{bootstrapTag}.
+			</Project>
+
+			<Project
+				link="https://www.instagram.com/dombutlerpad/"
+				background={teddy}
+			>
+				A collection of my graphic design and illustration work.
+			</Project>
 
 			<Project link="https://bar-clock.herokuapp.com" background={barclock}>
 				Visualising progress through the year down to the second. Built with{" "}
@@ -113,13 +128,6 @@ const Projects = props => {
 				background={checkboxchallenge}
 			>
 				A simple {javascriptTag} memory game using the checkbox element.
-			</Project>
-
-			<Project
-				link="https://www.instagram.com/dombutlerpad/"
-				background={teddy}
-			>
-				A collection of my graphic design and illustration work.
 			</Project>
 
 			<div className="spacer" />
