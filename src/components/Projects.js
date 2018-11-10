@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import Title from "./Title";
+import Tag from "./Tag";
 import "./Projects.css";
 
 //images
@@ -50,7 +51,7 @@ const Projects = props => {
 			<Title title="Dominic Butler" />
 
 			<Project link={CV} background={avatar} color="rgb(191, 191, 191)">
-				I'm a frontend web-developer focused on user interface. Find my
+				I'm a <Tag>frontend web-developer</Tag> focused on design. Find my
 				current CV here.
 			</Project>
 
@@ -61,8 +62,10 @@ const Projects = props => {
 			<Project
 				link="https://kentico-cafes.herokuapp.com/"
 				background={cafes}
+				repo="https://github.com/domb5041/kentico-cafes"
 			>
-				Connecting to Kentico Cloud API. built with {reactTag} and flexbox.
+				Connecting to Kentico Cloud API. built with <Tag>React</Tag> and
+				flexbox.
 			</Project>
 
 			<Project
@@ -70,15 +73,15 @@ const Projects = props => {
 				background={planets}
 			>
 				An interactive visualisation showing the scale of planets in our
-				solarsystem. Built with {d3Tag}.
+				solarsystem. Built with <Tag>D3</Tag>.
 			</Project>
 
 			<Project
 				link="https://www.youtube.com/watch?v=JChDbIOkE58&list=PLrRbyFPS5q6w8wLmKAudLnPg1L7CMv1Lw"
 				background={notecircle}
 			>
-				Guitar theory made bright and lively with Illustrator and After
-				Effects.
+				Guitar theory made bright and lively with <Tag>Illustrator</Tag> and{" "}
+				<Tag>After Effects</Tag>.
 			</Project>
 
 			<div className="spacer" />
@@ -86,8 +89,8 @@ const Projects = props => {
 			<Title title="More Projects" />
 
 			<Project link="https://mononote.herokuapp.com/" background={mononote}>
-				MonoNote is minimalist note-pad app built with {reactTag} and{" "}
-				{bootstrapTag}.
+				MonoNote is minimalist note-pad app built with <Tag>React</Tag> and{" "}
+				<Tag>Bootstrap</Tag>.
 			</Project>
 
 			<Project
@@ -99,35 +102,37 @@ const Projects = props => {
 
 			<Project link="https://bar-clock.herokuapp.com" background={barclock}>
 				Visualising progress through the year down to the second. Built with{" "}
-				{d3Tag}.
+				<Tag>D3</Tag>.
 			</Project>
 
 			<Project
 				link="https://hello-world-animation.herokuapp.com"
 				background={helloworld}
+				repo="https://github.com/domb5041/hello-world"
 			>
-				Experimenting with animation in {javascriptTag}.
+				Experimenting with animation in <Tag>Javascript</Tag>.
 			</Project>
 
 			<Project
 				link="https://colour-clock.herokuapp.com"
 				background={colourclock}
 			>
-				A {javascriptTag} clock that changes colour.
+				A <Tag>Javascript</Tag> clock that changes colour.
 			</Project>
 
 			<Project
 				link="https://album-wall.herokuapp.com"
 				background={albumtable}
 			>
-				An album cover layout. Experimenting with {cssTag} styles.
+				An album cover layout. Experimenting with <Tag>CSS</Tag> styles.
 			</Project>
 
 			<Project
 				link="https://checkbox-challenge.herokuapp.com"
 				background={checkboxchallenge}
 			>
-				A simple {javascriptTag} memory game using the checkbox element.
+				A simple <Tag>Javascript</Tag> memory game using the checkbox
+				element.
 			</Project>
 
 			<div className="spacer" />

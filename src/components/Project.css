@@ -8,6 +8,11 @@ a {
 	text-decoration: none;
 }
 
+.gitHub {
+	color: rgb(144, 225, 121);
+	text-decoration: underline;
+}
+
 .project {
 	border: 3px solid rgb(38, 46, 54);
 	overflow: hidden;
