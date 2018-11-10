@@ -20,32 +20,6 @@ import cafes from "./images/cafes.png";
 import CV from "./Dominic Butler CV.pdf";
 
 const Projects = props => {
-	const reactTag = (
-		<span style={{ color: "rgb(251, 201, 92)" }}>
-			<strong>REACT</strong>
-		</span>
-	);
-	const d3Tag = (
-		<span style={{ color: "rgb(125, 209, 240)" }}>
-			<strong>D3</strong>
-		</span>
-	);
-	const bootstrapTag = (
-		<span style={{ color: "rgb(107, 193, 138)" }}>
-			<strong>BOOTSTRAP</strong>
-		</span>
-	);
-	const javascriptTag = (
-		<span style={{ color: "rgb(193, 94, 98)" }}>
-			<strong>JAVASCRIPT</strong>
-		</span>
-	);
-	const cssTag = (
-		<span style={{ color: "rgb(210, 133, 101)" }}>
-			<strong>CSS</strong>
-		</span>
-	);
-
 	return (
 		<div className="projects">
 			<Title title="Dominic Butler" />
