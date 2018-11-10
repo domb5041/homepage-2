@@ -25,7 +25,7 @@ const Project = props => {
 					}}
 				/>
 				<div className="info">
-					{props.children} <br /> {gitHub}
+					{props.children} {gitHub}
 				</div>
 			</a>
 		</div>
