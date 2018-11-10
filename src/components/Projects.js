@@ -45,6 +45,7 @@ const Projects = props => {
 			<Project
 				link="https://planet-scale.herokuapp.com"
 				background={planets}
+				repo="https://github.com/domb5041/planetscale"
 			>
 				An interactive visualisation showing the scale of planets in our
 				solarsystem. Built with <Tag>D3</Tag>.
@@ -78,7 +79,11 @@ const Projects = props => {
 				A collection of my graphic design and illustration work.
 			</Project>
 
-			<Project link="https://bar-clock.herokuapp.com" background={barclock}>
+			<Project
+				link="https://bar-clock.herokuapp.com"
+				background={barclock}
+				repo="https://github.com/domb5041/bar-clock"
+			>
 				Visualising progress through the year down to the second. Built with{" "}
 				<Tag>D3</Tag>.
 			</Project>
