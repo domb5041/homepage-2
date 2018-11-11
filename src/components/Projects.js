@@ -76,7 +76,7 @@ const Projects = props => {
 				link="https://www.instagram.com/dombutlerpad/"
 				background={teddy}
 			>
-				A collection of my graphic design and illustration work.
+				A collection of my <Tag>graphic design</Tag> and illustration work.
 			</Project>
 
 			<Project
