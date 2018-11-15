@@ -16,6 +16,7 @@ import avatar from "./images/avatar.png";
 import notecircle from "./images/notecircle.png";
 import teddy from "./images/teddy.png";
 import cafes from "./images/cafes.png";
+import colourPalette from "./images/colourPalette.png";
 
 import CV from "./Dominic Butler CV.pdf";
 
@@ -32,6 +33,14 @@ const Projects = props => {
 			<div className="spacer" />
 
 			<Title title="Top Projects" />
+
+			<Project
+				link="https://material-colour-palette.herokuapp.com"
+				background={colourPalette}
+				repo="https://github.com/domb5041/material-colour-palette"
+			>
+				A model driven colour palette built with <Tag>React</Tag>.
+			</Project>
 
 			<Project
 				link="https://kentico-cafes.herokuapp.com/"
