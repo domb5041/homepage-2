@@ -39,7 +39,8 @@ const Projects = props => {
 				background={colourPalette}
 				repo="https://github.com/domb5041/material-colour-palette"
 			>
-				A model driven colour palette built with <Tag>React</Tag>.
+				A model driven colour palette built with <Tag>React</Tag>. (Work in
+				progress)
 			</Project>
 
 			<Project
