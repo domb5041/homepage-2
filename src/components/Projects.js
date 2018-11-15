@@ -43,15 +43,6 @@ const Projects = props => {
 			</Project>
 
 			<Project
-				link="https://kentico-cafes.herokuapp.com/"
-				background={cafes}
-				repo="https://github.com/domb5041/kentico-cafes"
-			>
-				Connecting to Kentico Cloud API. built with <Tag>React</Tag> and
-				flexbox.
-			</Project>
-
-			<Project
 				link="https://planet-scale.herokuapp.com"
 				background={planets}
 				repo="https://github.com/domb5041/planetscale"
@@ -71,14 +62,13 @@ const Projects = props => {
 			<div className="spacer" />
 
 			<Title title="More Projects" />
-
 			<Project
-				link="https://mononote.herokuapp.com/"
-				background={mononote}
-				repo="https://github.com/domb5041/mononote.git"
+				link="https://kentico-cafes.herokuapp.com/"
+				background={cafes}
+				repo="https://github.com/domb5041/kentico-cafes"
 			>
-				MonoNote is minimalist note-pad app built with <Tag>React</Tag> and{" "}
-				<Tag>Bootstrap</Tag>.
+				Connecting to Kentico Cloud API. built with <Tag>React</Tag> and
+				flexbox.
 			</Project>
 
 			<Project
@@ -87,7 +77,14 @@ const Projects = props => {
 			>
 				A collection of my <Tag>graphic design</Tag> and illustration work.
 			</Project>
-
+			<Project
+				link="https://mononote.herokuapp.com/"
+				background={mononote}
+				repo="https://github.com/domb5041/mononote.git"
+			>
+				MonoNote is minimalist note-pad app built with <Tag>React</Tag> and{" "}
+				<Tag>Bootstrap</Tag>.
+			</Project>
 			<Project
 				link="https://bar-clock.herokuapp.com"
 				background={barclock}
