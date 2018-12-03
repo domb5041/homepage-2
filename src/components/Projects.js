@@ -17,6 +17,7 @@ import notecircle from "./images/notecircle.png";
 import teddy from "./images/teddy.png";
 import cafes from "./images/cafes.png";
 import colourPalette from "./images/colourPalette.png";
+import runners from "./images/runners.png";
 
 import CV from "./Dominic Butler CV.pdf";
 
@@ -63,6 +64,16 @@ const Projects = props => {
 			<div className="spacer" />
 
 			<Title title="More Projects" />
+
+			<Project
+				link="https://dcsl-runners.herokuapp.com"
+				background={runners}
+				repo="https://github.com/domb5041/dcsl-runners"
+			>
+				A simple <Tag>React</Tag> app for recording statistical data during
+				a race.
+			</Project>
+
 			<Project
 				link="https://kentico-cafes.herokuapp.com/"
 				background={cafes}
